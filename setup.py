@@ -15,14 +15,14 @@ setup(
         "pytest-runner",
         "pytest-pylint",
         "pytest-pycodestyle",
-        "pytest-pep257",
+        "pytest-pep8",
         "pytest-cov",
     ],
     tests_require=[
         "pytest",
         "pylint",
         "pycodestyle",
-        "pep257",
+        "pep8",
     ],
     classifiers=[
         "Development Status :: 1 - Planning",
