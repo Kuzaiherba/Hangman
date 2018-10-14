@@ -35,7 +35,8 @@ def hangman(n_mistakes=5, words=None):
         letter = (input("Guess a letter: "))
         if letter in word:
             g_count += 1
-            guess = ''.join([(guess[i], word[i])[word[i] == letter] for i in range(n)])
+            guess = ''.join([(guess[i], word[i])[word[i] == letter]
+                             for i in range(n)])
             print 'Hit!'
             print 'The word: ', guess, '\n'
         elif m_count < n_mistakes:

@@ -13,14 +13,12 @@ setup(
     ],
     setup_requires=[
         "pytest-runner",
-        "pytest-pylint",
         "pytest-pycodestyle",
         "pytest-pep8",
         "pytest-cov",
     ],
     tests_require=[
         "pytest",
-        "pylint",
         "pycodestyle",
         "pep8",
     ],
